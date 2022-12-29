@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form method="post">
+First Name:
+<input type= "text" id="fname" onchange="upperCase()" requried>
+<br><br>
+Last Name:
+<input type= "text" id="fname" onchange="upperCase()" requried>
+<br><br>
+Age:
+<input type= "text" id="fname" onchange="upperCase()" requried>
+<button type="submit"> Submit </button>
+
+</form>
+
+<p id="demo"></p>
+
+<script>
+function upperCase(){
+var x = document.getElementById("fname");
+x.value = x.value.toUpperCase();
+
+</script>
+
+</body>
